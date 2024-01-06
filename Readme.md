@@ -11,7 +11,6 @@ InFuel is a collaborative project developed by a team of four during our college
 ## Technologies Used
 - **Backend:** PHP
 - **Database:** MySQL
-- **Other Technologies:** [List any other relevant technologies used]
 
 ## Getting Started
 To run InFuel locally, follow these steps:
