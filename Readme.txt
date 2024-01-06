@@ -1,39 +1,3 @@
-How to run the Fuel Delivery Management System (fdondms) Project
-
-1. Download the  zip file
-
-2. Extract the file and copy fdondms folder
-
-3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
-
-4. Open PHPMyAdmin (http://localhost/phpmyadmin)
-
-5. Create a database with name fdondmsdb
-
-6. Import fdondmsdb.sql file(given inside the zip package in SQL file folder)
-
-7.Run the script http://localhost/fdondms (frontend)
-
-
-
-Credential for admin panel :
-
-Username: admin
-Password: Test@123
-
-Credential for Fuel Station owner panel :
-
-Username: john12
-Password: Test@123
- Or Register a new owner.
-
-Credential for  User panel :
-
-Username: rahul12
-Password: Test@123
-
- Or Register a new User.
-
 # InFuel - Fuel Delivery Management System
 
 ## Overview
@@ -52,6 +16,42 @@ InFuel is a collaborative project developed by a team of four during our college
 ## Getting Started
 To run InFuel locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/N44zxyy/InFuel.git
+### Prerequisites
+- XAMPP/WAMP/LAMP installed on your machine.
+- PHP and MySQL should be properly configured.
+
+### Installation Steps
+
+1. **Download and Extract:**
+   - Download the zip file.
+   - Extract the file and copy the `fdondms` folder.
+
+2. **Move to Root Directory:**
+   - Paste the `fdondms` folder inside the root directory.
+     - For XAMPP: `xampp/htdocs`
+     - For WAMP: `wamp/www`
+     - For LAMP: `var/www/html`
+
+3. **Database Setup:**
+   - Open PHPMyAdmin (http://localhost/phpmyadmin).
+   - Create a database with the name `fdondmsdb`.
+   - Import `fdondmsdb.sql` file (found inside the zip package in the SQL file folder).
+
+4. **Run the Project:**
+   - Open a web browser and navigate to `http://localhost/fdondms` for the frontend.
+
+### Credentials
+
+- **Admin Panel:**
+  - Username: admin
+  - Password: Test@123
+
+- **Fuel Station Owner Panel:**
+  - Username: john12
+  - Password: Test@123
+  - *Or register a new owner.*
+
+- **User Panel:**
+  - Username: rahul12
+  - Password: Test@123
+  - *Or register a new user.*
