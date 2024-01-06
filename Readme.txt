@@ -33,3 +33,25 @@ Username: rahul12
 Password: Test@123
 
  Or Register a new User.
+
+# InFuel - Fuel Delivery Management System
+
+## Overview
+InFuel is a collaborative project developed by a team of four during our college years. It is a fully functional fuel delivery management system aimed at optimizing the process of fuel delivery, order processing, and customer management.
+
+## Features
+- **Order Processing:** Efficient handling of customer orders for fuel delivery.
+- **Delivery Tracking:** Real-time tracking of fuel delivery status.
+- **Customer Management:** User-friendly interface for managing customer profiles.
+
+## Technologies Used
+- **Backend:** PHP
+- **Database:** MySQL
+- **Other Technologies:** [List any other relevant technologies used]
+
+## Getting Started
+To run InFuel locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/N44zxyy/InFuel.git
